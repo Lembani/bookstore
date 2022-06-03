@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> A website for all fans of mathematics.
+> Bookstore app
 
 ## Built With
 
