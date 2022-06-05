@@ -2,12 +2,13 @@
 
 # Bookstore
 
-> Bookstore app
+> Bookstore app built using ReactJS & Redux.
 
 ## Built With
 
 - ReactJS
 - JavaScript
+- Redux
 
 ## Live Demo Link
 
