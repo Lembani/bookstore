@@ -1,4 +1,4 @@
-const CHECK_STATUS = 'bookstore/src/redux/categories/CHECK_STATUS';
+const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
 const categories = (state = [], action) => {
   switch (action.type) {
