@@ -17,6 +17,7 @@ const BookContainer = () => {
       category: 'Mystery',
     },
   ];
+
   return (
     <>
       <div className="main-book-container">
