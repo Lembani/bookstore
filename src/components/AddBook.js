@@ -17,9 +17,7 @@ const AddBook = () => {
     }
   };
 
-  const dataStore = () => {
-    console.log(data);
-  };
+  const dataStore = () => {};
 
   return (
     <>
