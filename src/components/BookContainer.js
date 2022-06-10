@@ -1,22 +1,11 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import AddBook from './AddBook';
 import Books from './Books';
 
 const BookContainer = () => {
-  const books = [
-    {
-      id: 1,
-      title: 'Hello World',
-      author: 'Lembani Sakala',
-      category: 'Novel',
-    },
-    {
-      id: 2,
-      title: 'Hello World',
-      author: 'Fortune Sakala',
-      category: 'Mystery',
-    },
-  ];
+  const data = useSelector((state) => state.booksReducer);
+  const books = data;
 
   return (
     <>

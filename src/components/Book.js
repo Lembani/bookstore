@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
 const Book = (props) => {
   const {
@@ -10,6 +12,7 @@ const Book = (props) => {
       category,
     },
   } = props;
+  const dispatch = useDispatch();
 
   return (
     <>
@@ -20,7 +23,7 @@ const Book = (props) => {
         {' - '}
         {category}
       </li>
-      <button type="button" id={id}>Remove</button>
+      <button type="button" id={id} onClick={() => dispatch(removeBook(id))}>Remove</button>
     </>
   );
 };
