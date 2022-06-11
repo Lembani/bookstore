@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import Book from './Book';
 
 const Books = ({ books }) => (
-  <ul className="books-container">
+  <section className="container">
     {
-      books.map((book) => <Book key={book.item_id} book={book} />)
+      books.map((book) => (
+        <Book key={book.item_id} book={book} />
+      ))
     }
-  </ul>
+  </section>
 );
 
 Books.propTypes = {

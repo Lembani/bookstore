@@ -22,14 +22,14 @@ const AddBook = () => {
 
   return (
     <>
-      <div className="add-book-container">
-        <h2>Add Book</h2>
-        <form action="#" method="post">
-          <input type="text" name="title" onChange={inputData} placeholder="Book title" />
-          <input type="text" name="author" onChange={inputData} placeholder="Author" />
+      <section className="input-wrapper">
+        <h3>Add New Book</h3>
+        <form className="input-form" action="#" method="post">
+          <input className="book-name-input" type="text" name="title" onChange={inputData} placeholder="Book title" />
+          <input className="author-name-input" type="text" name="author" onChange={inputData} placeholder="Author name" />
           <button type="button" onClick={() => dispatch(addBook(data))}>Add Book</button>
         </form>
-      </div>
+      </section>
     </>
   );
 };

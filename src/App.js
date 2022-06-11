@@ -4,13 +4,13 @@ import Categories from './components/Categories';
 import BookContainer from './components/BookContainer';
 
 const App = () => (
-  <div className="app">
+  <section className="main-container">
     <Navbar />
     <Routes>
       <Route path="/" element={<BookContainer />} />
       <Route path="/categories" element={<Categories />} />
     </Routes>
-  </div>
+  </section>
 );
 
 export default App;
