@@ -2,7 +2,10 @@
 
 # Bookstore
 
-> Bookstore app built using ReactJS & Redux.
+> The app brings the power of books to your fingertips. It enables the user to store books in one single place with a very simple, easy-to-understand interface built using ReactJS & Redux.
+
+<img width="1195" alt="Screenshot 2022-06-18 at 9 45 10 PM" src="https://user-images.githubusercontent.com/30483991/174682677-520f1b28-c73a-445b-825c-ed5693adde2c.png">
+
 
 ## Built With
 
@@ -13,7 +16,7 @@
 ## Live Demo Link
 
 The website is deployed using Github Pages.
-Click the [Link to Live Demo](https://lembani.github.io/bookstore) [Coming soon]
+Click the [Link to Live Demo](https://bookstore-app-cms.netlify.app/)
 
 ## Prerequisites
 
@@ -88,7 +91,7 @@ $ npx eslint .
 
 - GitHub: [@lembani](https://github.com/lembani)
 - Twitter: [@lembani_](https://twitter.com/lembani_)
-- LinkedIn: [lembani-sakala-b58615109](https://linkedin.com/in/lembani-sakala-b58615109)
+- LinkedIn: [lembani-sakala](https://linkedin.com/in/lembani-sakala)
 
 ## 🤝 Contributing
 
